@@ -1,0 +1,113 @@
+[
+    {
+        "ID": "1",
+        "Type": "Dog",
+        "Breed": "Beagle",
+        "Age": "3",
+        "Gender": "Male",
+        "Location": "Mumbai",
+        "Imgsrc": "images/1.jpg",
+        "Description": "Eats and sleeps a lot. Very playful when awake."
+    },
+    {
+        "ID": "2",
+        "Type": "Cat",
+        "Breed": "Asian",
+        "Age": "3",
+        "Gender": "Female",
+        "Location": "Mumbai",
+        "Imgsrc": "images/2.jpeg",
+        "Description": "Very quiet and shy. She can sleep anywhere."
+    },
+    {
+        "ID": "5",
+        "Type": "Dog",
+        "Breed": "Rottweiler",
+        "Age": "2",
+        "Gender": "Female",
+        "Location": "Chennai",
+        "Imgsrc": "images/5.jpeg",
+        "Description": "Loves to play and gets quickly along with new people."
+    },
+    {
+        "ID": "3",
+        "Type": "Bird",
+        "Breed": "Parrot",
+        "Age": "10",
+        "Gender": "Male",
+        "Location": "Chennai",
+        "Imgsrc": "images/3.jpg",
+        "Description": "Can speak few words. Very friendly with everyone."
+    },
+    {
+        "ID": "9",
+        "Type": "Bird",
+        "Breed": "Love Birds",
+        "Age": "12",
+        "Gender": "Male & Female",
+        "Location": "Delhi",
+        "Imgsrc": "images/9.jpg",
+        "Description": "Need to be fed 5 times a day. Very cute couple and must not be seperated."
+    },
+    {
+        "ID": "4",
+        "Type": "Hamster",
+        "Breed": "Asian",
+        "Age": "6",
+        "Gender": "Female",
+        "Location": "Delhi",
+        "Imgsrc": "images/7.jpg",
+        "Description": "Very cute and loves peanuts."
+    },
+    {
+        "ID": "6",
+        "Type": "Cat",
+        "Breed": "Bengal",
+        "Age": "5",
+        "Gender": "Female",
+        "Location": "Delhi",
+        "Imgsrc": "images/6.jpeg",
+        "Description": "Vaccinated and litter trained. Need a caring home."
+    },
+    {
+        "ID": "7",
+        "Type": "Dog",
+        "Breed": "Labrador",
+        "Age": "4",
+        "Gender": "Male",
+        "Location": "Delhi",
+        "Imgsrc": "images/4.jpg",
+        "Description": "Loves walks and good with other cats and children."
+    },
+    {
+        "ID": "8",
+        "Type": "Rabbit",
+        "Breed": "Asian",
+        "Age": "8",
+        "Gender": "Female",
+        "Location": "Mumbai",
+        "Imgsrc": "images/8.jpg",
+        "Description": "Loves carrots. Can't be alone and needs another bunny."
+    },
+    {
+        "ID": "10",
+        "Type": "Cat",
+        "Breed": "Asian",
+        "Age": "1",
+        "Gender": "Male",
+        "Location": "Chennai",
+        "Imgsrc": "images/10.jpeg",
+        "Description": "Healthy and cute. Needs maintainance and proper care must be taken."
+    },
+    {
+        "ID": "11",
+        "Type": "Dog",
+        "Breed": "Indian",
+        "Age": "3",
+        "Gender": "Female",
+        "Location": "Chennai",
+        "Imgsrc": "images/11.jpeg",
+        "Description": "Very shy at first but gets along with person feeding her. Always hungry."
+    }
+    
+]
