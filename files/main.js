@@ -22,7 +22,7 @@ function handle() {
     msg.innerHTML = "";
     if (validate(form)) {
         const phprequest = new XMLHttpRequest();
-        phprequest.open('POST', 'handle.php');
+        phprequest.open('POST', 'files/handle.php');
         phprequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         phprequest.send("uname=" + form.elements[0].value + "&uemail=" + form.elements[1].value + "&uphno=" + form.elements[2].value);
         sbtn.disabled = true;
@@ -70,7 +70,7 @@ function selectcity(inputcity) {
             prevbtn.style.display = "none";
             adoptbtn.style.display = "none";
             var img = new Image();
-            img.src = "images/sorry.png";
+            img.src = "files/images/sorry.png";
             ctitle.innerHTML = "Sorry!";
             image.innerHTML = "";
             image.appendChild(img);
@@ -105,7 +105,7 @@ prevbtn.addEventListener("click", function () {
 
 adoptbtn.addEventListener("click", function () {
     const adoptreq = new XMLHttpRequest();
-    adoptreq.open('POST', 'adoptreq.php');
+    adoptreq.open('POST', 'files/adoptreq.php');
     adoptreq.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     adoptreq.send("uname=" + form.elements[0].value + "&uemail=" + form.elements[1].value + "&ucity=" + city + "&uphno=" + form.elements[2].value + "&petid=" + data[pos[currpos]].ID);
     adoptreq.onload = function () {
@@ -132,7 +132,7 @@ function showcard(position) {
     document.getElementById('page').innerHTML = "";
     document.getElementById('pgender').innerHTML = "";
     var img = new Image();
-    img.src = data[position].Imgsrc;
+    img.src = "files/"+data[position].Imgsrc;
     image.appendChild(img);
     ctitle.insertAdjacentHTML("afterbegin", data[position].Type);
     document.getElementById('pcity').insertAdjacentHTML("beforeend",data[position].Location + "<br>");

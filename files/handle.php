@@ -24,3 +24,4 @@ if($conn){
 else {
 echo "ConnectionError";
 }
+?>

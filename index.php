@@ -14,7 +14,7 @@
 <body>
     <div class="headerparent">
         <div id="header">
-            <img class="logo" src="images/logo.png" />
+            <img class="logo" src="files/images/logo.png" />
         </div>
         <div id="location">
             <form>
