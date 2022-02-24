@@ -14,7 +14,7 @@
 <body>
     <div class="headerparent">
         <div id="header">
-            <a href="https://testpetadopt.herokuapp.com/"><img class="logo" src="files/images/logo.png" /></a>
+            <a href="https://testpetadopt.000webhostapp.com"><img class="logo" src="files/images/logo.png" /></a>
         </div>
         <div id="location">
             <form>
@@ -48,7 +48,7 @@
         </div>
         <div id="content">
             <p class="cardheader">"Sometimes pets understand emotions better than humans do"</p>
-            <input id="prev" type="image" src="files/images/next3.png" onclick="prevclick()" />
+            <input id="prev" type="image" src="https://drive.google.com/file/d/1UV0l1FEvuRG5aiSsIxWVm9BAaqV5BaRD/view?usp=sharing/next3.png" onclick="prevclick()" />
             <div id="card">
                 <div id="cardtitle"></div>
                 <div id="image"></div>
@@ -59,7 +59,7 @@
                 <div id="desc"></div>
                 <button id="adopt">Adopt</button>
             </div>
-            <input id="next" type="image" src="files/images/next4.png" onclick="nextclick()" />
+            <input id="next" type="image" src="https://drive.google.com/file/d/1Ls1v4aZsdZmLjTT14FpVy8eiQHx7IzUI/view?usp=sharing/next4.png" onclick="nextclick()" />
         </div>
             <div id="responsebox"></div>
     </div>

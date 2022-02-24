@@ -4,9 +4,9 @@ $email=$_POST['uemail'];
 $phno=$_POST['uphno'];
 
 $servername="localhost";
-$username="root";
-$password="";
-$dbname="ajax";
+$username="id18515585_admin";
+$password="#(nI38e#*?]}s1S<";
+$dbname="id18515585_ajax";
 
 $conn= new mysqli($servername,$username,$password,$dbname);
 if($conn){
