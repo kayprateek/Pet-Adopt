@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="files/style.css">
 
 </head>
 
@@ -48,7 +48,7 @@
         </div>
         <div id="content">
             <p class="cardheader">"Sometimes pets understand emotions better than humans do"</p>
-            <input id="prev" type="image" src="images/next3.png" onclick="prevclick()" />
+            <input id="prev" type="image" src="files/images/next3.png" onclick="prevclick()" />
             <div id="card">
                 <div id="cardtitle"></div>
                 <div id="image"></div>
@@ -59,11 +59,11 @@
                 <div id="desc"></div>
                 <button id="adopt">Adopt</button>
             </div>
-            <input id="next" type="image" src="images/next4.png" onclick="nextclick()" />
+            <input id="next" type="image" src="files/images/next4.png" onclick="nextclick()" />
         </div>
             <div id="responsebox"></div>
     </div>
-    <script src="main.js"></script>
+    <script src="files/main.js"></script>
 </body>
 
 </html>
