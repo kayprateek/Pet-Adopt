@@ -27,6 +27,7 @@ function handle() {
         phprequest.send("uname=" + form.elements[0].value + "&uemail=" + form.elements[1].value + "&uphno=" + form.elements[2].value);
         sbtn.disabled = true;
         phprequest.onload = function () {
+            console.log(this.response);
             if (this.response == "ConnectionError") {
                 msg.innerHTML = "Server Error. Try refreshing the page.";
             }
@@ -54,7 +55,7 @@ function selectcity(inputcity) {
     container.style.display = "none";
     content.style.display = "block";
     var request = new XMLHttpRequest();
-    request.open('GET', 'pets.json');
+    request.open('GET', 'files/pets.json');
     request.onload = function () {
         data = JSON.parse(request.responseText);
         var found = false;
